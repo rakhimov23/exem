@@ -1,0 +1,224 @@
+
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family:'Poppins' ;
+}
+/* header start */
+.container {
+    width: 1340px;
+}
+.site-header {
+    padding-top: 77px;
+}
+
+.head-site {
+    display: flex;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+.list__link {
+    padding-left: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+}
+.btn {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+/* header end */
+/* section start */
+.sec {
+    display: flex;
+}
+.sec-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-title {
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+}
+.inside-img {
+    justify-content: center;
+    align-items: center;
+}
+.sec-text {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
+.sec-btn {
+    width: 438px;
+    height: 118px;
+    left: 129px;
+    top: 675px;
+    background: #263238;
+    border-radius: 15px;
+}
+.text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.sec-image {
+    display: flex;
+}
+.sec-left{
+    display: flex;
+    justify-content: center;
+}
+.sec-h1 {
+    padding-top: 137px;
+    display: flex;
+    justify-content: center;
+}
+.sec--title {
+    padding-bottom: 60px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+.a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side {
+    width: 30%;
+}
+.letf-title {
+    padding-bottom: 40px;
+    font-weight: 600;
+font-size: 30px;
+line-height: 80px;
+color: #263238;
+}
+.letf-text {
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #8F95A5;
+}
+.btn {
+    background: #263238;
+border-radius: 5px;
+}
+.text {
+    padding-bottom: 40px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.right-title {
+    padding: 30px;
+    font-weight: 600;
+font-size: 30px;
+line-height: 80px;
+color: #263238;
+}
+.right-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #8F95A5;
+
+}
+.article-head {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.article-title {
+    padding: 80px 60px 80px;
+    font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #000000;
+}
+.article-text {
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+.nomber {
+    width: 635px;
+    display: flex;
+    align-items: center;
+}
+.div-No {
+    display: flex;
+}
+.nostyle {
+    font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+color: #2A3246;
+}
+.p-style {
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
